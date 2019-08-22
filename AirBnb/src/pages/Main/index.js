@@ -1,10 +1,14 @@
 import React from 'react';
-
-import { View } from 'react-native';
+import MapboxGL from '@react-native-mapbox-gl/maps';
 
 export default function Main() {
   return (
-    <View />
+    <MapboxGL.MapView
+      centerCoordinate={[-49.6446024, -27.2108001]}
+      style={{ flex: 1 }}
+      styleURL={MapboxGL.StyleURL.Dark}
+      
+    />
   );
 } 
 

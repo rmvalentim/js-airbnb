@@ -88,7 +88,7 @@ export default class SignIn extends Component {
           onChangeText={this.handlePasswordChange}
           autoCapitalize="none"
           autoCorrect={false}
-          secureTextEntry
+          secureTextEntry          
         />
         {this.state.error.length !== 0 && <ErrorMessage>{this.state.error}</ErrorMessage>}
         <Button onPress={this.handleSignInPress}>
