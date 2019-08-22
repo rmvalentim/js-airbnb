@@ -12,3 +12,6 @@ airbnb-server/.env
 airbnb-server/database/development.sqlite
 
 ###
+# APP
+AirBnb/node_modules
+AirBnb/android/app/build
